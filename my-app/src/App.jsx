@@ -1,12 +1,22 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Titulo from './componentes/Titulo'
+import Aluno from './componentes/Aluno'
+import Texto from './componentes/Texto'
+import Botao from './componentes/Botao'
+
 import './App.css'
 
 function App() {
   return (
     <div>
-      <h1>Minha Primeira Aula</h1>
+      <Titulo/>
+      <Aluno/>
+      <input type="text" onChanfe={Texto}/>
+      <button onClick={Botao}>
+        Mostar Mensagem
+      </button>
     </div>
   )
 }
