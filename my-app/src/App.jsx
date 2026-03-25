@@ -31,18 +31,43 @@ import Botao from './componentes/Botao'
 //import Email from './Ex05/Email'
 //import BotaoEnviar from './Ex05/BotaoEnviar'
 
-import Titulo6 from './Ex06/Titulo6'
-import BotaoClique from './Ex06/BotaoClique'
+//import Titulo6 from './Ex06/Titulo6'
+//import BotaoClique from './Ex06/BotaoClique'
+//import Contador from './ListaDinamica/Contador'
+
+//import Titulo001 from './Ex001/Titulo001'
+//import Contador from './Ex001/Contador'
+
+//import Titulo002 from './Ex002/Titulo002'
+//import Texto from './Ex002/Texto'
+
+import Titulo003 from './Ex003/Titulo003'
+
+import ExemploCopia from './FormulariosReact'
 
 function App() {
   return (
 
     <div>
+      <Titulo003/>      
+      <ExemploCopia/>
+
+      {/*
+
+      Ex 002: 
+
+      <Titulo002/>
+      <Texto/>
+
+      Ex 001:
+      
+      <Titulo001/>
+      <Contador/>
+
       Ex 06: 
       <Titulo6/>
       <BotaoClique/>
 
-      {/*
       Ex 05:
       
       <Titulo5/>
