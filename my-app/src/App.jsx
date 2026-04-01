@@ -41,16 +41,19 @@ import Botao from './componentes/Botao'
 //import Titulo002 from './Ex002/Titulo002'
 //import Texto from './Ex002/Texto'
 
-import Titulo003 from './Ex003/Titulo003'
+//import Titulo003 from './Ex003/Titulo003'
+//import ExemploCopia from './FormulariosReact'
 
-import ExemploCopia from './FormulariosReact'
+import TituloReact from './ExReact/tituloReact'
+import Formulario from './ExReact/Formulario'
 
 function App() {
   return (
 
     <div>
-      <Titulo003/>      
-      <ExemploCopia/>
+      
+      <TituloReact/>
+      <Formulario/>
 
       {/*
 
